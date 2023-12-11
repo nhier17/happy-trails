@@ -9,7 +9,7 @@ import { pageAnimation} from "../animation";
 const MovieDetail = () =>{
     const location = useLocation();
     const url =location.pathname;
-    const [movies,Setmovies] = useState(MovieState)
+    const [movies] = useState(MovieState)
     const [movie,setMovie] = useState(null)
 
     useEffect(() =>{
